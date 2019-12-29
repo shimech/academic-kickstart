@@ -2,11 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Board Game Reporter"
-summary: ""
+summary: "ボドゲの戦績をSlackチャンネルにポストするBOT"
 authors: []
-tags: []
+tags: ["Hobby", "Board Game"]
 categories: []
-date: 2019-12-29T13:07:01+09:00
+date: 2019-10-20
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,8 +16,8 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
-  preview_only: false
+  focal_point: "Smart"
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
