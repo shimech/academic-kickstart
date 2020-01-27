@@ -41,6 +41,7 @@ date_format = "Jan 2006"
   description = """
   **Webアプリ開発**
 
+  - TypeScript (React)
   - PHP (Laravel)
   - Firestore / Firebase
   - Algolia
