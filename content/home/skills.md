@@ -27,7 +27,7 @@ subtitle = ""
 [[feature]]
   icon_path = "artificial-intelligence.png"
   name = "Machine Learning"
-  description = "Newral Network / Gaussian Process"
+  description = "Neural Network / Gaussian Process"
 
 [[feature]]
   icon_path = "3d-printing.png"
