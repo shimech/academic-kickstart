@@ -65,7 +65,7 @@ date_format = "Jan 2006"
   - Python (Django)
   - MySQL
   - JavaScript
-  - Google Extension
+  - Chrome Extension
   """
 
 [[experience]]
