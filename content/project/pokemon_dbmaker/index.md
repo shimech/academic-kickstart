@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Pokémon Database Maker"
-summary: "ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション"
+summary: "ポケモンの全国図鑑をCSV形式で生成するCLIアプリケーション"
 authors: []
 tags: ["Hobby", "Pokémon"]
 categories: []
@@ -39,21 +39,26 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-## 1. 概要
-[GameWith](https://gamewith.jp/pokemon-sword-shield/article/show/175731)のWebサイトをクローリングし、ポケットモンスター ソード・シールドのポケモン図鑑を生成するCLIアプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。
 
-## 2. ポケットモンスター ソード・シールドとは？
-2019年11月15日にNintendo Switchから発売されたポケットモンスターシリーズの最新作です (2019年11月現在)。ポケットモンスターシリーズ初のNintendo Switch対応ソフトであり、従来の3DS版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Zワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。
+## 1. 概要
+
+[ポケモン徹底攻略](https://yakkun.com/swsh/stats_list.htm?mode=all)さんの Web サイトをクローリングし、ポケモンの全国図鑑を生成する CLI アプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。
+
+## 2. ポケットモンスター ソード・シールドについて
+
+2019 年 11 月 15 日に Nintendo Switch から発売されたポケットモンスターシリーズの最新作です (2019 年 11 月現在)。ポケットモンスターシリーズ初の Nintendo Switch 対応ソフトであり、従来の 3DS 版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Z ワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。
 
 ## 3. 使用した言語・フレームワーク
+
 - Python (BeautifulSoup / pandas)
 - Docker
 
 ## 4. 使い方
-CLIで以下のコマンドを叩いてください。GitHubリポジトリは[こちら](https://github.com/shimech/pokemon_dbmaker)
+
+CLI で以下のコマンドを叩いてください。GitHub リポジトリは[こちら](https://github.com/shimech/pokemon-db-maker)
 
 ```shell
 $ git clone https://github.com/shimech/pokemon_dbmaker.git
-$ cd pokemon_dbmaker/
-$ sh run.sh
+$ cd pokemon-db-maker/
+$ pipenv run docker
 ```
