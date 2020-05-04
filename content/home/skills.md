@@ -17,17 +17,17 @@ subtitle = ""
 [[feature]]
   icon_path = "web.png"
   name = "Web Application"
-  description = "JavaScript / Python / PHP"
+  description = "JavaScript / PHP / Python"
 
 [[feature]]
   icon_path = "sql.png"
   name = "Database"
-  description = "RDBMS / NoSQL / GraphDB"
+  description = "RDBMS / GraphDB"
 
 [[feature]]
   icon_path = "artificial-intelligence.png"
   name = "Machine Learning"
-  description = "Neural Network / Gaussian Process"
+  description = "Bayes Modeling / Neural Network / Gaussian Process"
 
 [[feature]]
   icon_path = "3d-printing.png"
