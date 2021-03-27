@@ -18,12 +18,19 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Engineer"
+  company = "株式会社リクルート"
+  company_url = "https://www.recruit.co.jp"
+  location = "Tokyo"
+  date_start = "2021-04-01"
+
+[[experience]]
   title = "Master Degree Student"
   company = "Cyber Interface Lab"
   company_url = "http://www.cyber.t.u-tokyo.ac.jp/ja/"
   location = "Hongo, Tokyo"
   date_start = "2019-04-01"
-  # date_end = "2021-03-31"
+  date_end = "2021-03-31"
   description = """
   **ハプティックデバイスを用いた触力覚提示**
 
@@ -38,6 +45,7 @@ date_format = "Jan 2006"
   company_url = "https://www.frankart.jp/"
   location = "Azabujuban, Tokyo"
   date_start = "2019-11-25"
+  date_end = "2020-07-31"
   description = """
   **Webアプリ開発**
 

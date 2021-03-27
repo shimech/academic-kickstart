@@ -26,6 +26,10 @@ subtitle = ""
     tag = "*"
 
   [[content.filter_button]]
+    name = "Research"
+    tag = "Research"
+
+  [[content.filter_button]]
     name = "Hackathon"
     tag = "Hackathon"
 
@@ -42,7 +46,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -74,4 +78,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
