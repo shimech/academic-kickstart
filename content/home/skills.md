@@ -15,21 +15,33 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  icon_path = "web.png"
+  name = "Web Application"
+  description = "JavaScript / PHP / Python"
+
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+  icon_path = "sql.png"
+  name = "Database"
+  description = "RDBMS / GraphDB"
+
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  icon_path = "artificial-intelligence.png"
+  name = "Machine Learning"
+  description = "Bayes Modeling / Neural Network / Gaussian Process"
+
+[[feature]]
+  icon_path = "3d-printing.png"
+  name = "3D Modeling"
+  description = "Fusion 360 / Ultimaker"
+
+[[feature]]
+  icon_path = "vr-glasses.png"
+  name = "VR Application"
+  description = "Unity"
+
+[[feature]]
+  icon_path = "pokeball.png"
+  name = "Pokémon"
+  description = "Battle with [Tyranitar](https://yakkun.com/swsh/zukan/n248)"
 
 +++
