@@ -46,5 +46,5 @@ Unident is a handheld proxy capable of providing impact sensations by changing i
 
 ## Video
 
-- [30-second teaser](https://youtu.be/2OUwaxidaJg)
+- [30-second teaser](https://youtu.be/bNRKsab2y6c)
 - [Presentation @IEEE VR 2021](https://youtu.be/D7PhRKz8WYg)
