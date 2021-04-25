@@ -57,8 +57,9 @@ slides: ""
 
 CLI で以下のコマンドを叩いてください。GitHub リポジトリは[こちら](https://github.com/shimech/pokemon-db-maker)
 
-```shell
-$ git clone https://github.com/shimech/pokemon_dbmaker.git
+```sh
+$ git clone https://github.com/shimech/pokemon-db-maker.git
 $ cd pokemon-db-maker/
-$ pipenv run docker
+$ make build
+$ make docker-run
 ```
